@@ -1,0 +1,28 @@
+#include<cstdlib>
+#include<iostream>
+using namespace std;
+int volumebalok(int p, int l, int t){
+    int volume;
+    volume = p*l*t;
+    return volume;
+}
+
+int main(){
+    int p,l,t,volume;
+    cout << "Masukkan nilai p =  " <<endl;
+    cin >>p;
+    cout << "Masukkan nilai l =  " <<endl;
+    cin >>l;
+    cout << "Masukkan nilai t =  " <<endl;
+    cin >>t;
+
+    
+    volume = volumebalok(p,l,t);
+    
+    cout << "Volume BALOK =  " <<volume<<endl<<endl<<endl;
+    cout << "create by Maszya Biandhara R. (Ny. Mason) " <<endl;
+
+    system("PAUSE");
+    return 0;
+    
+}
