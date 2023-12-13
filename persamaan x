@@ -1,0 +1,27 @@
+#include<cstdlib>
+#include<iostream>
+using namespace std;
+int x(int a, int b, int c){
+    int persamaan;
+    persamaan = (4*a*b)/(7*c);
+    return persamaan;
+}
+
+int main(){
+    int a,b,c,persamaan;
+    cout << "Masukkan nilai a =  " <<endl;
+    cin >>a;
+    cout << "Masukkan nilai b =  " <<endl;
+    cin >>b;
+    cout << "Masukkan nilai c =  " <<endl;
+    cin >>c;
+
+    persamaan = x(a,b,c);
+    
+    cout << "persamaan x =  " <<persamaan<<endl<<endl<<endl<<endl;
+    cout << "create by Maszya Biandhara R. (Ny. Mason) " <<endl;
+
+    system("PAUSE");
+    return 0;
+    
+}
